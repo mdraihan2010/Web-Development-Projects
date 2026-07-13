@@ -1,0 +1,483 @@
+/* ===================================
+   Global Style
+=================================== */
+
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/* ===================================
+   Body
+=================================== */
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #eef4f7;
+
+    color: #333;
+
+    line-height: 1.6;
+
+}
+
+/* ===================================
+   Main Container
+=================================== */
+
+.container{
+
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: 30px auto;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+
+}
+
+/* ===================================
+   Header
+=================================== */
+
+.header{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 30px;
+
+}
+
+/* ===================================
+   Profile Image
+=================================== */
+
+.profile img{
+
+    width: 160px;
+
+    height: 160px;
+
+    border-radius: 50%;
+
+    border: 5px solid rgb(0, 6, 128);
+
+    object-fit: cover;
+
+}
+
+/* ===================================
+   Name
+=================================== */
+
+.header-content{
+
+    flex: 1;
+
+}
+
+.header-content h1{
+
+    color: navy;
+
+    font-size: 48px;
+
+    margin-bottom: 10px;
+
+}
+
+.header-content h3{
+
+    color: #555;
+
+    font-size: 24px;
+
+    font-weight: normal;
+
+}
+
+/* ===================================
+   Contact
+=================================== */
+
+.contact{
+
+    text-align: right;
+
+}
+
+.contact p{
+
+    margin-bottom: 10px;
+
+}
+
+.contact i{
+
+    color: navy;
+
+    width: 25px;
+
+}
+
+/* ===================================
+   Horizontal Line
+=================================== */
+
+hr{
+
+    margin: 30px 0;
+
+    border: 2px solid navy;
+
+}
+
+/* ===================================
+   Social Links
+=================================== */
+
+.social{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+}
+
+.social a{
+
+    text-decoration: none;
+
+    color: navy;
+
+    font-weight: bold;
+
+    transition: .3s;
+
+}
+
+.social a:hover{
+
+    color: crimson;
+
+}
+
+/* ===================================
+   Main Content
+=================================== */
+
+.main-content{
+
+    display:flex;
+
+    gap:30px;
+
+    margin-top:40px;
+
+}
+
+/* ===================================
+   Left & Right Column
+=================================== */
+
+.left-column{
+
+    flex:2;
+
+}
+
+.right-column{
+
+    flex:1;
+
+}
+
+/* ===================================
+   Card
+=================================== */
+
+.card{
+
+    background:#f8f9fa;
+
+    border-left:6px solid navy;
+
+    border-radius:8px;
+
+    padding:25px;
+
+    margin-bottom:25px;
+
+    box-shadow:0 3px 8px rgba(0,0,0,.08);
+
+}
+
+/* ===================================
+   Card Heading
+=================================== */
+
+.card h2{
+
+    color:navy;
+
+    margin-bottom:15px;
+
+}
+
+/* ===================================
+   Paragraph
+=================================== */
+
+.card p{
+
+    text-align:justify;
+
+}
+
+/* ===================================
+   List
+=================================== */
+
+.card ul{
+
+    list-style:none;
+
+}
+
+.card ul li{
+
+    margin-bottom:10px;
+
+}
+
+/* ===================================
+   Education
+=================================== */
+
+.education-item{
+
+    margin-bottom:20px;
+
+}
+
+.education-item h3{
+
+    color:#1e3a8a;
+
+    margin-bottom:8px;
+
+}
+
+/* ===================================
+   Experience
+=================================== */
+
+.experience-item h3{
+
+    color:#1e3a8a;
+
+    margin-bottom:10px;
+
+}
+
+/* ===================================
+   Divider
+=================================== */
+
+.divider{
+
+    border:1px solid #ddd;
+
+    margin:20px 0;
+
+}
+
+/* ===================================
+   Project List
+=================================== */
+
+.card ul li{
+
+    line-height:1.8;
+
+}
+
+/* ===================================
+   Card Hover Effect
+=================================== */
+
+.card{
+
+    transition:0.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+}
+
+/* ===================================
+   Footer
+=================================== */
+
+.footer{
+
+    background-color:navy;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    margin-top:40px;
+
+}
+
+.footer p{
+
+    margin-bottom:15px;
+
+}
+
+.footer-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+}
+
+.footer-links a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+    color:gold;
+
+}
+
+
+/* ===================================
+   Responsive Design
+=================================== */
+
+@media (max-width:768px){
+
+    .header{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .contact{
+
+        text-align:center;
+
+    }
+
+    .main-content{
+
+        flex-direction:column;
+
+    }
+
+    .social{
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+    .footer-links{
+
+        flex-direction:column;
+
+        gap:12px;
+
+    }
+
+    .profile img{
+
+        width:130px;
+
+        height:130px;
+
+    }
+
+    .header-content h1{
+
+        font-size:36px;
+
+    }
+
+}
+
+
+/* ===================================
+   Print Style (A4 Friendly)
+=================================== */
+
+@media print{
+
+    body{
+
+        background:white;
+
+    }
+
+    .container{
+
+        box-shadow:none;
+
+        width:100%;
+
+        margin:0;
+
+    }
+
+    .footer{
+
+        display:none;
+
+    }
+
+}
