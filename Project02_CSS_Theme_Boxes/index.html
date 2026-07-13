@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CSS z-index & Variables</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>CSS z-index & Variables Practice</h1>
+
+    <div class="container">
+      <div id="box1">Box 1</div>
+
+      <div id="box2">Box 2</div>
+
+      <div id="box3">Box 3</div>
+
+      <div id="box4">Box 4</div>
+    </div>
+    <!-- ===================================
+     CSS Variables Practical Example
+=================================== -->
+
+    <section class="theme-card">
+      <h2>CSS Variables Practical Example</h2>
+
+      <p>
+        This section demonstrates how CSS Variables can be reused throughout a
+        project. By changing only one variable inside
+        <strong>:root</strong>, every element using that variable will
+        automatically update.
+      </p>
+
+      <button class="btn-primary">Learn More</button>
+
+      <button class="btn-secondary">Contact Me</button>
+    </section>
+
+    <!-- ===================================
+     Theme Example
+=================================== -->
+
+    <section class="theme-preview">
+      <h2>Light Theme</h2>
+
+      <div class="theme-box light-theme">
+        <h3>Light Mode</h3>
+
+        <p>This section uses the global CSS variables.</p>
+      </div>
+
+      <h2>Dark Theme</h2>
+
+      <div class="theme-box dark-theme">
+        <h3>Dark Mode</h3>
+
+        <p>
+          This section overrides the global variables using local variables.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
