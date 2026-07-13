@@ -23,6 +23,11 @@ Web-Development-Projects/
 │   ├── style.css
 │   └── README.md
 │
+├── Project03_Calculator_Design/
+│   ├── index.html
+│   ├── style.css
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -34,6 +39,7 @@ Web-Development-Projects/
 |---------|-------------|--------------|
 | **Project01 - CV Website** | A personal CV website built using HTML and CSS. | HTML5, CSS3 |
 | **Project02 - CSS Theme Boxes** | Theme boxes demonstrating CSS Variables and z-index concepts. | HTML5, CSS3 |
+| **Project03 - Calculator Design** | A modern and responsive calculator user interface built using HTML and CSS. | HTML5, CSS3 |
 
 More projects will be added as I continue my Web Development journey.
 
@@ -64,7 +70,7 @@ More projects will be added as I continue my Web Development journey.
 # 📈 Current Progress
 
 - ✅ Repository Created
-- ✅ 2 Projects Completed
+- ✅ 3 Projects Completed
 - 🔄 Learning Modern Frontend Development
 
 ---
@@ -78,7 +84,6 @@ More projects will be added as I continue my Web Development journey.
 - Responsive Navigation Bar
 - Pricing Cards
 - Dashboard UI
-- Calculator
 - To-Do List (JavaScript)
 - Weather App
 - Digital Clock
